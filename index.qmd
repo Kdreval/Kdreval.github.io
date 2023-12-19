@@ -4,4 +4,6 @@ title: "Main page"
 
 This is a Quarto website.
 
+I edited this page here.
+
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
