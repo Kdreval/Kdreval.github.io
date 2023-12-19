@@ -10,10 +10,20 @@ website:
         text: Home
       - about.qmd
       - motion_graphics.qmd
+  back-to-top-navigation: true
+  page-footer:
+    background: light
+    left: "Copyright 2023, Kostia Dreval"
+    right:
+      - icon: github
+        href: https://github.com/Kdreval
+      - icon: facebook
+        href: https://www.facebook.com/kostiantyn.dreval/
 
 format:
   html:
-    theme: cosmo
+    light: flatly
+    dark: darkly
     css: styles.css
     toc: true
 
