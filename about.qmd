@@ -1,5 +1,30 @@
 ---
 title: "About"
+about:
+  template: jolla
+  image: src/images/kdreval.jpg
+  links:
+    - icon: facebook
+      text: Facebook
+      href: https://facebook.com
+    - icon: github
+      text: Github
+      href: https://github.com
 ---
 
-About this site
+I am the Staff Scientist I at the Morin Lab. This is a test website and it won't
+live long time.
+
+## Education
+
+Donetsk nationall University | Donetsk, Ukraine
+PhD in Biotechnology | Nov 2009 - June 2012
+
+
+## Experience
+
+Canada's Michael Smith Genome Sciences Centre | Staff Scientist I | September 2023 - present
+
+Canada's Michael Smith Genome Sciences Centre | Research Associate | September 2021 - September 2023
+
+Simon Fraser University | PostDoctoral Fellow | September 2020 - September 2021

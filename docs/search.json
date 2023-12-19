@@ -11,7 +11,21 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "I am the Staff Scientist I at the Morin Lab. This is a test website and it won’t live long time."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nDonetsk nationall University | Donetsk, Ukraine PhD in Biotechnology | Nov 2009 - June 2012"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\nCanada’s Michael Smith Genome Sciences Centre | Staff Scientist I | September 2023 - present\nCanada’s Michael Smith Genome Sciences Centre | Research Associate | September 2021 - September 2023\nSimon Fraser University | PostDoctoral Fellow | September 2020 - September 2021"
   },
   {
     "objectID": "index.html",
