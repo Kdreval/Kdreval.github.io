@@ -3,12 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "."
+  title: "My portfolio"
   navbar:
     left:
       - href: index.qmd
         text: Home
       - about.qmd
+      - motion_graphics.qmd
 
 format:
   html:
