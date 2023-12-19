@@ -1,5 +1,26 @@
 ---
 title: "VFX and Motion Graphics"
+filters:
+   - lightbox
+lightbox: auto
 ---
 
 Portfolio
+
+::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+
+{{< video https://www.youtube.com/watch?v=t09v146X7BU width="400" height="300" group="my-gallery">}}
+
+{{< video https://www.youtube.com/watch?v=1gEI3G5juoI width="400" height="300" group="my-gallery">}}
+
+{{< video https://www.youtube.com/watch?v=76Jb3XL82mo width="400" height="300" group="my-gallery">}}
+
+{{< video https://www.youtube.com/watch?v=o_yhoEi0MEg width="400" height="300" group="my-gallery">}}
+
+{{< video https://www.youtube.com/watch?v=ac7yEJvwQXs width="400" height="300" group="my-gallery">}}
+
+{{< video https://www.youtube.com/shorts/iESf2tyDQbY width="400" height="300" group="my-gallery">}}
+
+{{< video https://www.youtube.com/shorts/GxfioqAWmDQ width="400" height="300" group="my-gallery">}}
+
+:::
