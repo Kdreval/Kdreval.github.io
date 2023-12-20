@@ -7,12 +7,22 @@ filters:
 
 Portfolio
 
-:::: {.grid data-masonry='{ "itemSelector": ".grid-item", "gutter": 0 }'}
+:::: {.grid data-masonry='{ "itemSelector": ".grid-item", "gutter": 0, "fitWidth": true, "resize": true  }'}
 
+::: {.grid-item}
 ![](src/images/all_the_things.jpeg){style="column-span: none;" group="my-gallery"}
+:::
+::: {.grid-item .grid-item--width2 .grid-item--height2}
 ![](src/images/bl_clusters.png){style="column-span: none;" group="my-gallery"}
+:::
+::: {.grid-item .grid-item--height3}
 ![](src/images/cell_states.jpg){style="column-span: none;" group="my-gallery"}
+:::
+::: {.grid-item .grid-item--height2}
 ![](src/images/estim_r.pdf){style="column-span: none;" group="my-gallery"}
+:::
+::: {.grid-item .grid-item--width3}
 ![](src/images/lcr-modules.png){style="column-span: none;" group="my-gallery"}
+:::
 
 ::::
