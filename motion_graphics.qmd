@@ -2,18 +2,12 @@
 title: "Some plots"
 filters:
     - lightbox
-lightbox: auto
-format:
-    html:
-        theme: litera
-        css: styles.css
+    - masonry
 ---
 
 Portfolio
 
-::: gallery
-
-::: column-page
+:::: {.grid data-masonry='{ "itemSelector": ".grid-item", "gutter": 0 }'}
 
 ![](src/images/all_the_things.jpeg){style="column-span: none;" group="my-gallery"}
 ![](src/images/bl_clusters.png){style="column-span: none;" group="my-gallery"}
@@ -21,6 +15,4 @@ Portfolio
 ![](src/images/estim_r.pdf){style="column-span: none;" group="my-gallery"}
 ![](src/images/lcr-modules.png){style="column-span: none;" group="my-gallery"}
 
-:::
-
-:::
+::::

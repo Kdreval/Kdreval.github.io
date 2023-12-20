@@ -39,9 +39,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script src="site_libs/quarto-contrib/masonry-4.2.2/masonry.pkgd.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -111,7 +109,7 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -131,10 +129,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>Portfolio</p>
-<div class="gallery page-columns page-full">
-<div class="column-page">
-<p><a href="src/images/all_the_things.jpeg" class="lightbox" data-gallery="my-gallery"><img src="src/images/all_the_things.jpeg" class="img-fluid" style="column-span: none;"></a> <a href="src/images/bl_clusters.png" class="lightbox" data-gallery="my-gallery"><img src="src/images/bl_clusters.png" class="img-fluid" style="column-span: none;"></a> <a href="src/images/cell_states.jpg" class="lightbox" data-gallery="my-gallery"><img src="src/images/cell_states.jpg" class="img-fluid" style="column-span: none;"></a> <a href="src/images/estim_r.pdf" class="lightbox" data-gallery="my-gallery"><embed src="src/images/estim_r.pdf" class="img-fluid" style="column-span: none;"></a> <a href="src/images/lcr-modules.png" class="lightbox" data-gallery="my-gallery"><img src="src/images/lcr-modules.png" class="img-fluid" style="column-span: none;"></a></p>
-</div>
+<div class="grid" data-masonry="{ &quot;itemSelector&quot;: &quot;.grid-item&quot;, &quot;gutter&quot;: 0 }">
+<p><img src="src/images/all_the_things.jpeg" class="img-fluid" style="column-span: none;" data-group="my-gallery"> <img src="src/images/bl_clusters.png" class="img-fluid" style="column-span: none;" data-group="my-gallery"> <img src="src/images/cell_states.jpg" class="img-fluid" style="column-span: none;" data-group="my-gallery"> <embed src="src/images/estim_r.pdf" class="img-fluid" style="column-span: none;" data-group="my-gallery"> <img src="src/images/lcr-modules.png" class="img-fluid" style="column-span: none;" data-group="my-gallery"></p>
 </div>
 
 
@@ -398,7 +394,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","loop":true,"selector":".lightbox","descPosition":"bottom","openEffect":"zoom"});</script>
 
 
 
