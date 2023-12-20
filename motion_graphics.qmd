@@ -2,29 +2,13 @@
 title: "Some plots"
 filters:
     - lightbox
-format:
-    html:
-        theme: litera
-        css: styles.css
 ---
 
 Portfolio
 
-::: gallery
-
-::: column-page
 
 ![](src/images/all_the_things.jpeg){style="column-span: none;" group="my-gallery"}
 ![](src/images/bl_clusters.png){style="column-span: none;" group="my-gallery"}
-:::
-
-::: column-page
 ![](src/images/cell_states.jpg){style="column-span: none;" group="my-gallery"}
 ![](src/images/estim_r.pdf){style="column-span: none;" group="my-gallery"}
-:::
-
-::: column-page
 ![](src/images/lcr-modules.png){style="column-span: none;" group="my-gallery"}
-:::
-
-:::
