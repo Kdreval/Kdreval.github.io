@@ -1,26 +1,26 @@
 ---
-title: "VFX and Motion Graphics"
+title: "Some plots"
 filters:
-   - lightbox
+    - lightbox
 lightbox: auto
+format:
+    html:
+        theme: litera
+        css: styles.css
 ---
 
 Portfolio
 
-::: {style="display: grid;grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));grid-gap: 1em;"}
+::: gallery
 
-{{< video https://www.youtube.com/watch?v=t09v146X7BU width="600" height="450" group="my-gallery">}}
+::: column-page
 
-{{< video https://www.youtube.com/watch?v=1gEI3G5juoI width="600" height="450" group="my-gallery">}}
+![](src/images/all_the_things.jpeg){style="column-span: none;" group="my-gallery"}
+![](src/images/bl_clusters.png){style="column-span: none;" group="my-gallery"}
+![](src/images/cell_states.jpg){style="column-span: none;" group="my-gallery"}
+![](src/images/estim_r.pdf){style="column-span: none;" group="my-gallery"}
+![](src/images/lcr-modules.png){style="column-span: none;" group="my-gallery"}
 
-{{< video https://www.youtube.com/watch?v=76Jb3XL82mo width="600" height="450" group="my-gallery">}}
-
-{{< video https://www.youtube.com/watch?v=o_yhoEi0MEg width="600" height="450" group="my-gallery">}}
-
-{{< video https://www.youtube.com/watch?v=ac7yEJvwQXs width="600" height="450" group="my-gallery">}}
-
-{{< video https://www.youtube.com/shorts/iESf2tyDQbY width="600" height="450" group="my-gallery">}}
-
-{{< video https://www.youtube.com/shorts/GxfioqAWmDQ width="600" height="450" group="my-gallery">}}
+:::
 
 :::

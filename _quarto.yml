@@ -9,6 +9,7 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - motion_graphics.qmd
   page-footer:
     background: light
     left: "Copyright 2023, Kostia Dreval"
