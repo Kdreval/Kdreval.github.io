@@ -2,27 +2,29 @@
 title: "Some plots"
 filters:
     - lightbox
-    - masonry
+format:
+    html:
+        theme: litera
+        css: styles.css
 ---
 
 Portfolio
 
-:::: {.grid data-masonry='{ "itemSelector": ".grid-item", "gutter": 0, "fitWidth": true, "resize": true  }'}
+::: gallery
 
-::: {.grid-item}
+::: column-page
+
 ![](src/images/all_the_things.jpeg){style="column-span: none;" group="my-gallery"}
-:::
-::: {.grid-item .grid-item--width2 .grid-item--height2}
 ![](src/images/bl_clusters.png){style="column-span: none;" group="my-gallery"}
 :::
-::: {.grid-item .grid-item--height3}
+
+::: column-page
 ![](src/images/cell_states.jpg){style="column-span: none;" group="my-gallery"}
-:::
-::: {.grid-item .grid-item--height2}
 ![](src/images/estim_r.pdf){style="column-span: none;" group="my-gallery"}
 :::
-::: {.grid-item .grid-item--width3}
+
+::: column-page
 ![](src/images/lcr-modules.png){style="column-span: none;" group="my-gallery"}
 :::
 
-::::
+:::

@@ -1,1 +1,11 @@
 /* css styles */
+
+.gallery > div {
+    columns:16em;
+    gap:0.5rem;
+  }
+
+  .gallery img {
+    display:block;
+    width:100%;
+  }
