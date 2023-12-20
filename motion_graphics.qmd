@@ -2,13 +2,14 @@
 title: "Some plots"
 filters:
     - lightbox
+lightbox: auto
 ---
 
 Portfolio
 
 
-![](src/images/all_the_things.jpeg){style="column-span: none;" group="my-gallery"}
-![](src/images/bl_clusters.png){style="column-span: none;" group="my-gallery"}
-![](src/images/cell_states.jpg){style="column-span: none;" group="my-gallery"}
-![](src/images/estim_r.pdf){style="column-span: none;" group="my-gallery"}
-![](src/images/lcr-modules.png){style="column-span: none;" group="my-gallery"}
+![](src/images/all_the_things.jpeg){group="my-gallery"}
+![](src/images/bl_clusters.png){group="my-gallery"}
+![](src/images/cell_states.jpg){group="my-gallery"}
+![](src/images/estim_r.pdf){group="my-gallery"}
+![](src/images/lcr-modules.png){group="my-gallery"}
