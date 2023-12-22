@@ -4,6 +4,7 @@ project:
 
 website:
   title: "My portfolio"
+  back-to-top-navigation: true
   navbar:
     left:
       - href: index.qmd

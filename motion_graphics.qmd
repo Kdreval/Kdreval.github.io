@@ -5,7 +5,6 @@ filters:
 lightbox: auto
 format:
     html:
-        theme: litera
         css: src/gallery.css
 ---
 
