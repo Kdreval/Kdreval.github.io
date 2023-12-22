@@ -3,6 +3,10 @@ title: "Some plots"
 filters:
     - lightbox
 lightbox: auto
+format:
+    html:
+        theme: litera
+        css: src/gallery.css
 ---
 
 # Portfolio
