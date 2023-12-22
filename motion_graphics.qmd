@@ -11,11 +11,11 @@ Portfolio
 
 ::: column-page
 
-![](src/images/all_the_things.jpeg){style="column-span: none;" group="my-gallery"}
-![](src/images/cell_states.jpg){width=10% style="column-span: none;" group="my-gallery"}
-![](src/images/bl_clusters.png){width=20% style="column-span: none;" group="my-gallery"}
-![](src/images/estim_r.pdf){width=40% style="column-span: none;" group="my-gallery"}
-![](src/images/lcr-modules.png){width=40% style="column-span: none;" group="my-gallery"}
+![](src/images/800x1200.jpeg){style="column-span: none;" group="my-gallery"}
+![](src/images/900x1100.jpeg){style="column-span: none;" group="my-gallery"}
+![](src/images/1000x1000.jpeg){style="column-span: none;" group="my-gallery"}
+![](src/images/1100x900.jpeg){style="column-span: none;" group="my-gallery"}
+![](src/images/1200x800.jpeg){style="column-span: none;" group="my-gallery"}
 
 :::
 :::
