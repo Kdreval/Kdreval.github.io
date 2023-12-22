@@ -13,6 +13,8 @@ format:
 
 ::: gallery
 
+::: column-page
+
 ![](src/images/800x1200.jpeg){width=500 style="column-span: none;" group="my-gallery"}
 
 ![](src/images/900x1100.jpeg){width=500 style="column-span: none;" group="my-gallery"}
@@ -24,5 +26,7 @@ format:
 ![](src/images/1200x800.jpeg){width=500 style="column-span: none;" group="my-gallery"}
 
 ![](src/images/800x1200.jpeg){width=500 style="column-span: none;" group="my-gallery"}
+
+:::
 
 :::
