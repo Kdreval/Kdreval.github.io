@@ -1,5 +1,5 @@
 .gallery > div {
-    columns: 2 auto;
+    columns: 2;
     gap:0.5rem;
   }
 
