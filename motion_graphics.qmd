@@ -9,7 +9,7 @@ format:
         css: src/gallery.css
 ---
 
-# Portfolio
+Portfolio
 
 ::: gallery
 
