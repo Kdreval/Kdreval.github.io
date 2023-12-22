@@ -1,9 +1,9 @@
 .gallery > div {
-    columns:16em;
+    columns: 2 auto;
     gap:0.5rem;
   }
 
-  .gallery img {
+.gallery img {
     display:block;
     width:100%;
   }
