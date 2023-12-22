@@ -7,9 +7,15 @@ lightbox: auto
 
 Portfolio
 
+::: gallery
 
-![](src/images/all_the_things.jpeg){group="my-gallery"}
-![](src/images/bl_clusters.png){group="my-gallery"}
-![](src/images/cell_states.jpg){group="my-gallery"}
-![](src/images/estim_r.pdf){group="my-gallery"}
-![](src/images/lcr-modules.png){group="my-gallery"}
+::: column-page
+
+![](src/images/all_the_things.jpeg){style="column-span: none;" group="my-gallery"}
+![](src/images/cell_states.jpg){width=10% style="column-span: none;" group="my-gallery"}
+![](src/images/bl_clusters.png){width=20% style="column-span: none;" group="my-gallery"}
+![](src/images/estim_r.pdf){width=40% style="column-span: none;" group="my-gallery"}
+![](src/images/lcr-modules.png){width=40% style="column-span: none;" group="my-gallery"}
+
+:::
+:::

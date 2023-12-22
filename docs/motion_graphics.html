@@ -111,7 +111,7 @@ ul.task-list li input[type="checkbox"] {
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -131,7 +131,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 <p>Portfolio</p>
-<p><a href="src/images/all_the_things.jpeg" class="lightbox" data-gallery="my-gallery"><img src="src/images/all_the_things.jpeg" class="img-fluid"></a> <a href="src/images/bl_clusters.png" class="lightbox" data-gallery="my-gallery"><img src="src/images/bl_clusters.png" class="img-fluid"></a> <a href="src/images/cell_states.jpg" class="lightbox" data-gallery="my-gallery"><img src="src/images/cell_states.jpg" class="img-fluid"></a> <a href="src/images/estim_r.pdf" class="lightbox" data-gallery="my-gallery"><embed src="src/images/estim_r.pdf" class="img-fluid"></a> <a href="src/images/lcr-modules.png" class="lightbox" data-gallery="my-gallery"><img src="src/images/lcr-modules.png" class="img-fluid"></a></p>
+<div class="gallery page-columns page-full">
+<div class="column-page">
+<p><a href="src/images/all_the_things.jpeg" class="lightbox" data-gallery="my-gallery"><img src="src/images/all_the_things.jpeg" class="img-fluid" style="column-span: none;"></a> <a href="src/images/cell_states.jpg" class="lightbox" data-gallery="my-gallery"><img src="src/images/cell_states.jpg" class="img-fluid" style="column-span: none;;width:10.0%"></a> <a href="src/images/bl_clusters.png" class="lightbox" data-gallery="my-gallery"><img src="src/images/bl_clusters.png" class="img-fluid" style="column-span: none;;width:20.0%"></a> <a href="src/images/estim_r.pdf" class="lightbox" data-gallery="my-gallery"><embed src="src/images/estim_r.pdf" class="img-fluid" style="column-span: none;;width:40.0%"></a> <a href="src/images/lcr-modules.png" class="lightbox" data-gallery="my-gallery"><img src="src/images/lcr-modules.png" class="img-fluid" style="column-span: none;;width:40.0%"></a></p>
+</div>
+</div>
 
 
 
@@ -394,7 +398,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":true});</script>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":true,"openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom"});</script>
 
 
 
