@@ -37,7 +37,7 @@ format:
   html:
     theme: lux
     css: styles.css
-    toc: true
+    toc: false
     grid:
       margin-width: 100px
 
