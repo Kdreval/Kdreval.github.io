@@ -39,7 +39,7 @@ format:
     css: styles.css
     toc: true
     grid:
-      gutter-width: 7rem
+      margin-width: 100px
 
 
 
