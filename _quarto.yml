@@ -8,12 +8,14 @@ website:
   favicon: src/images/odlogo.jpg
   back-to-top-navigation: true
   page-navigation: true
+  search: false
   navbar:
     background: "#000000"
     logo: src/images/odlogo.jpg
     logo-alt: "Kostia Dreval"
     title: false
-    collapse-below: lg
+    collapse-below: sm
+    border: false
     right:
       - index.qmd
       - about.qmd
