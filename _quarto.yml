@@ -14,8 +14,7 @@ website:
     logo: src/images/odlogo.jpg
     logo-alt: "Kostia Dreval"
     title: false
-    collapse-below: sm
-    border: false
+    collapse-below: lg
     right:
       - index.qmd
       - about.qmd
@@ -39,6 +38,8 @@ format:
     theme: lux
     css: styles.css
     toc: true
+    grid:
+      gutter-width: 7rem
 
 
 
