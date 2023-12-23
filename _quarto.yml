@@ -4,6 +4,8 @@ project:
 
 website:
   title: "My portfolio"
+  image: src/images/odlogo.jpg
+  favicon: src/images/odlogo.jpg
   back-to-top-navigation: true
   navbar:
     left:
