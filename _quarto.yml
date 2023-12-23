@@ -7,14 +7,24 @@ website:
   image: src/images/odlogo.jpg
   favicon: src/images/odlogo.jpg
   back-to-top-navigation: true
+  page-navigation: true
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
+    background: "#f0eeeb"
+    logo: src/images/odlogo.jpg
+    logo-alt: "Kostia Dreval"
+    title: false
+    collapse-below: lg
+    right:
+      - index.qmd
       - about.qmd
-      - motion_graphics.qmd
+      - text: "Graphic Design"
+        menu:
+        - text: "Motion Graphics"
+          href: motion_graphics.qmd
+        - text: "Social Media"
+          href: motion_graphics.qmd
   page-footer:
-    background: light
+    background: "#000000"
     left: "Copyright 2023, Kostia Dreval"
     right:
       - icon: github
@@ -24,7 +34,7 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: lux
     css: styles.css
     toc: true
 
