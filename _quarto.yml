@@ -9,7 +9,7 @@ website:
   back-to-top-navigation: true
   page-navigation: true
   navbar:
-    background: "#f0eeeb"
+    background: "#000000"
     logo: src/images/odlogo.jpg
     logo-alt: "Kostia Dreval"
     title: false
