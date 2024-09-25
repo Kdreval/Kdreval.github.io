@@ -1,30 +1,80 @@
 ---
-title: "About"
+title: "Kostiantyn Dreval, Ph.D."
+from: markdown+emoji
 about:
   template: jolla
+  image-width: 28em
   image: src/images/kdreval.jpg
   links:
-    - icon: facebook
-      text: Facebook
-      href: https://facebook.com
     - icon: github
-      text: Github
-      href: https://github.com
+      aria-label: GitHub
+      href: https://github.com/Kdreval
+    - icon: linkedin
+      aria-label: "LinkedIn"
+      href: https://www.linkedin.com/in/kostiantyn-dreval-05718bba/
+    - icon: code
+      aria-label: "ORCID"
+      href: https://orcid.org/0000-0002-6214-2843
+    - icon: lightbulb
+      aria-label: "Google Scholar"
+      href: https://scholar.google.com/citations?user=5noD2aEAAAAJ&hl=en
+    - icon: folder
+      aria-label: "PubMed"
+      href: https://pubmed.ncbi.nlm.nih.gov/?term=dreval+k&sort=date
+page-layout: full
+
+execute:
+  freeze: false
+  echo: false
+  warning: false
 ---
 
-I am the Staff Scientist I at the Morin Lab. This is a test website and it won't
-live long time.
 
-## Education
+<div style="text-align: justify">
+Hi! :wave:
+<br/>
+I am the Staff Scientist I at the Morin Lab at the Canada's Michael Smith Genome Sciences Centre in beautiful Vancouver, BC, Canada. My daily routine includes software engineering, analysis of datasets ranging from hundreds to tens of millions, and development and optimization of machine learning models to uncover hidden patterns in the data invisible to  human eye.
+<br/>
+I am originally from Ukraine, but have travelled the world since 2014 and gained experience working in both government and academia settings across 2 continents. Now I live in Vancouver area of beautiful BC, Canada. :bear:
+</div>
 
-Donetsk nationall University | Donetsk, Ukraine
-PhD in Biotechnology | Nov 2009 - June 2012
+<br/><br/>
+<br><br>
 
+::: {.panel-tabset}
 
 ## Experience
 
-Canada's Michael Smith Genome Sciences Centre | Staff Scientist I | September 2023 - present
+Canada's Michael Smith Genome Sciences Centre, BC Cancer | Staff Scientist I | September 2023 - present
 
-Canada's Michael Smith Genome Sciences Centre | Research Associate | September 2021 - September 2023
+Canada's Michael Smith Genome Sciences Centre, BC Cancer | Research Associate | September 2021 - September 2023
 
 Simon Fraser University | PostDoctoral Fellow | September 2020 - September 2021
+
+Comprehensive Cancer Center, University of New Mexico | PostDoctoral Research Fellow | September 2017 - June 2020
+
+The National Center for Toxicological Research, U.S. Food and Drug Administration | ORISE PostDoctoral Fellow | June 2015 - August 2017
+
+## Skills
+
+Software Engineering / Machine learning / Data Science/ Large Datasets
+<br>
+Data Management / Version Control / Databases / Reproducibility
+<br>
+VS Code / Quarto / GitHub / Terminal
+
+## Software
+
+R / Python / Perl / CSS / Linux / bash
+<br>
+Tensorflow / Scikit-learn / Pandas / Numpy / Polars / Snakemake
+<br>
+SQL / Git / Conda / Mamba
+
+## Education
+
+Certificate in Regulatory Science | University of Arkansas for Medical Sciences | Little Rock, AR :us:
+
+Ph.D. in Biotechnology | Donetsk National University | Donetsk :ukraine:
+
+:::

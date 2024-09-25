@@ -1,37 +1,16 @@
 [
   {
-    "objectID": "motion_graphics.html",
-    "href": "motion_graphics.html",
-    "title": "Some plots",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Kostiantyn Dreval, Ph.D.",
     "section": "",
-    "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n\n\n\n   \n    \n   \n\n\n\n\n\n Back to top"
+    "text": "Hi! 👋  I am the Staff Scientist I at the Morin Lab at the Canada’s Michael Smith Genome Sciences Centre in beautiful Vancouver, BC, Canada. My daily routine includes software engineering, analysis of datasets ranging from hundreds to tens of millions, and development and optimization of machine learning models to uncover hidden patterns in the data invisible to human eye.  I am originally from Ukraine, but have travelled the world since 2014 and gained experience working in both government and academia settings across 2 continents. Now I live in Vancouver area of beautiful BC, Canada. 🐻\n\n \n\nExperienceSkillsSoftwareEducation\n\n\nCanada’s Michael Smith Genome Sciences Centre, BC Cancer | Staff Scientist I | September 2023 - present\nCanada’s Michael Smith Genome Sciences Centre, BC Cancer | Research Associate | September 2021 - September 2023\nSimon Fraser University | PostDoctoral Fellow | September 2020 - September 2021\nComprehensive Cancer Center, University of New Mexico | PostDoctoral Research Fellow | September 2017 - June 2020\nThe National Center for Toxicological Research, U.S. Food and Drug Administration | ORISE PostDoctoral Fellow | June 2015 - August 2017\n\n\nSoftware Engineering / Machine learning / Data Science/ Large Datasets  Data Management / Version Control / Databases / Reproducibility  VS Code / Quarto / GitHub / Terminal\n\n\nR / Python / Perl / CSS / Linux / bash  Tensorflow / Scikit-learn / Pandas / Numpy / Polars / Snakemake  SQL / Git / Conda / Mamba\n\n\nCertificate in Regulatory Science | University of Arkansas for Medical Sciences | Little Rock, AR 🇺🇸\nPh.D. in Biotechnology | Donetsk National University | Donetsk 🇺🇦\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "Kostiantyn Dreval, Ph.D.",
     "section": "",
-    "text": "I am the Staff Scientist I at the Morin Lab. This is a test website and it won’t live long time."
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "About",
-    "section": "Education",
-    "text": "Education\nDonetsk nationall University | Donetsk, Ukraine PhD in Biotechnology | Nov 2009 - June 2012"
-  },
-  {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
-    "title": "About",
-    "section": "Experience",
-    "text": "Experience\nCanada’s Michael Smith Genome Sciences Centre | Staff Scientist I | September 2023 - present\nCanada’s Michael Smith Genome Sciences Centre | Research Associate | September 2021 - September 2023\nSimon Fraser University | PostDoctoral Fellow | September 2020 - September 2021"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Main page",
-    "section": "",
-    "text": "This is a Quarto website.\nI edited this page here.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\n\n Back to top"
+    "text": "Hi! 👋  I am the Staff Scientist I at the Morin Lab at the Canada’s Michael Smith Genome Sciences Centre in beautiful Vancouver, BC, Canada. My daily routine includes software engineering, analysis of datasets ranging from hundreds to tens of millions, and development and optimization of machine learning models to uncover hidden patterns in the data invisible to human eye.  I am originally from Ukraine, but have travelled the world since 2014 and gained experience working in both government and academia settings across 2 continents. Now I live in Vancouver area of beautiful BC, Canada. 🐻\n\n \n\nExperienceSkillsSoftwareEducation\n\n\nCanada’s Michael Smith Genome Sciences Centre, BC Cancer | Staff Scientist I | September 2023 - present\nCanada’s Michael Smith Genome Sciences Centre, BC Cancer | Research Associate | September 2021 - September 2023\nSimon Fraser University | PostDoctoral Fellow | September 2020 - September 2021\nComprehensive Cancer Center, University of New Mexico | PostDoctoral Research Fellow | September 2017 - June 2020\nThe National Center for Toxicological Research, U.S. Food and Drug Administration | ORISE PostDoctoral Fellow | June 2015 - August 2017\n\n\nSoftware Engineering / Machine learning / Data Science/ Large Datasets  Data Management / Version Control / Databases / Reproducibility  VS Code / Quarto / GitHub / Terminal\n\n\nR / Python / Perl / CSS / Linux / bash  Tensorflow / Scikit-learn / Pandas / Numpy / Polars / Snakemake  SQL / Git / Conda / Mamba\n\n\nCertificate in Regulatory Science | University of Arkansas for Medical Sciences | Little Rock, AR 🇺🇸\nPh.D. in Biotechnology | Donetsk National University | Donetsk 🇺🇦\n\n\n\n\n\n Back to top"
   }
 ]
