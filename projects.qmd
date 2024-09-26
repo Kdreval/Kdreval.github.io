@@ -18,8 +18,8 @@ This porfolio includes openly available research publications and software where
   <div class="project">
     <a href="./projects/gamblr_data.html">
         <div class="image-container">
-        <img src="src/images/600x900.jpeg" alt="Project One" class="project-image">
-        <img src="src/images/900x1100.jpeg" alt="Project One Hover" class="project-image-hover">
+        <img src="src/images/900x1100.jpeg" alt="Project One" class="project-image">
+        <img src="src/images/1600x1400.jpeg" alt="Project One Hover" class="project-image-hover">
         <div class="description">GAMBLR.data: R package with a collection of genomics data</div>
         </div>
     </a>

@@ -10,13 +10,14 @@ website:
   page-navigation: true
   search: false
   navbar:
-    background: "#000000"
+    background: "#A3B18A"
     logo: src/images/odlogo.jpg
     logo-alt: "Kostiantyn Dreval"
     title: false
     collapse-below: lg
     right:
-      - index.qmd
+      - text: "Home"
+        href: index.qmd
       - text: "About"
         href: about.qmd
       - text: "Projects"
@@ -24,7 +25,7 @@ website:
       - text: "CV"
         href: https://web.archive.org/web/20221012060027id_/https://watermark.silverchair.com/blood.2022016095.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAA-QwggPgBgkqhkiG9w0BBwagggPRMIIDzQIBADCCA8YGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMPJITGaaLuzluFEmpAgEQgIIDl2BxGsnlBhRf0QOMKOcC-scaz7D7omZn3MrOgiTbTlemyWmSvbzrJgyRdZ9kiVkugAjNetxZMUGMetbz0kuQcWz1vxOmpfxhtFxJxn4CZIJ7copRw2C5OVOHVbgldOCtOWbqCD55Y3E7GGbvq3kvo4I2NE_iimx6ymjd_cI7Nibyz9KESB4HZ-bhTPoLFD37h9UFCN-ckIci2CX12FL2h9ZyAkCAgic6uEBJa4iE0HZAJU1Vc0hk7xtY1G7JQelB786OSa3BG8DX5UiSHT2mhNScy0G3HJ16-DEfG_ihmFberDgvyX2J6MYC1rgFNeRFKcPMAHkbu_p2X1-k9tEadMdYBqAvXxZQNGq1DCVewL4bKY8IYuKC18kgHTeSJAu95Kis9SbfdLCfmufCeE-56Q3_NbCZwJb1PJHt8Y15GjAWVu80mK5Kb5Px3rGHt2tPy6S6bRRCM84byhuuOM631nrkhFNtGZGmlwRWwBipOFcRMOyoiZSZG-rvfExk7pnT33g7d0b0MulRDZuiLCttHgz1i0ishLH1X2K7FMDpgDIFf34RIJbO9cf3_L6N25UFEGvFugwoLRu4VV-WQ1b-e8g4qW_oCxFlkiHSnFZd0j8V1xMxfhUslcnv0E1tkuE681jEezAwzMwmwk8mJEubGNpdlVb15bLdipffoZeQpDuYPO013fUAK-FGSX6Yb8GwA3GB5fJXcmuQITV-QuuSl2KtZeZF5TVrXscVK7oIabxFIrXD6KWvlmhzzdy_bOHJpylalgoDJtM9FmoUoG-wH00CmG1vLE21bfaMhrI6oTEhIK_3m-7k0wBr81Bh3275qJbvvOkZtqscm-lo3knxiCAgmnzU2nk76KRL8rpi-DgRdZyYMZ0oky5YMt8_FntDfdmVq6k1bCIjxAPLaDVr2VEtuLGL8AGs3Qn2dChPg3DSFvaURqFoVEpTOjR4m_Jg374L3ZENZJYonhcf6tceC56EiAJo5n3DhSBeZUZsoHh509pxdO-NAawCJL1gHWK7Gq5JhEF3FEuYx6aM4kkhQG6ojWzgve6zPcw9bqeCP_ul0N5mGTASDx-y0b66pYAyIA3sUMyhUIFGSk1lz4kY2sWlG8_XIAkcbeVuI98UTXUJtplRngrt-t12ZYO5yaD5O2l57KSY0OGCO4CGlzIg380T008UUvFbKE6t6R9pgXtkOwIDcCXZxpVwmWd1QquhRBKhDBbfy54
   page-footer:
-    background: "#000000"
+    background: "#588157"
     left: "Copyright 2024, Kostiantyn Dreval"
     right:
       - icon: github
