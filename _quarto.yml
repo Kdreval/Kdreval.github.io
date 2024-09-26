@@ -8,12 +8,12 @@ website:
   favicon: src/images/odlogo.jpg
   back-to-top-navigation: true
   page-navigation: true
-  search: false
+  search: true
   navbar:
     background: "#A3B18A"
     logo: src/images/odlogo.jpg
     logo-alt: "Kostiantyn Dreval"
-    title: false
+    title: Kostiantyn Dreval
     collapse-below: lg
     right:
       - text: "Home"
