@@ -1,0 +1,29 @@
+---
+format:
+  html:
+    self-contained: true
+    css: ../styles.css
+---
+
+# GAMBLR.data: R package with a collection of genomic data
+
+<br><br>
+[GAMBLR.data](https://github.com/morinlab/GAMBLR.data) is an open-source portable R library.
+<br><br>
+If you've had issues with importing genomic data from large-scale lymphoma
+studies, need to work with standardized data used for analysis of somatic
+variants, find yourself translating between different genome build systems,
+or just want a great great comprehensive resource of genomic data in B-cell
+lymphomas, GAMBLR.data is for you.
+<br><br>
+Alongside the genomic data, the package also contains a set of functions providing an API to easily retreive and operate on this data in a reproducible fashion.
+<br><br>
+The package is set up to be maintained through GitHub Actions, which ensures that it can be correctly installed in a new environment.
+<br><br>
+The package has associated detailed documentation carefully crafted in an interactive manner, also containing tutorials and FAQ. [Check it out!](https://morinlab.github.io/GAMBLR.data/)
+<br><br>
+GAMBLR stands for **G**enomic **A**nalysis of **M**ature **B**-cell **L**ymphomas
+in **R**, and is part of the family of R packages for lymphoma cancer research
+developed in the [Morin Lab](https://morinlab.github.io/) at the Simon Fraser
+University.
+

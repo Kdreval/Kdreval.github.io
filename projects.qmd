@@ -1,0 +1,107 @@
+---
+format:
+  html:
+    self-contained: true
+    css: styles.css
+---
+
+# Projects{style="text-align:center;"}
+
+This porfolio includes openly available research publications and software where I was a leading author, along with works, software, and tools I have contributed to or designed in collaboration with other teams.
+
+<br><br>
+
+:::{.column-screen}
+
+```{=html}
+<div class="project-grid">
+  <div class="project">
+    <a href="./projects/gamblr_data.html">
+        <div class="image-container">
+        <img src="src/images/600x900.jpeg" alt="Project One" class="project-image">
+        <img src="src/images/900x1100.jpeg" alt="Project One Hover" class="project-image-hover">
+        <div class="description">GAMBLR.data: R package with a collection of genomics data</div>
+        </div>
+    </a>
+  </div>
+
+  <div class="project">
+    <div class="image-container">
+      <img src="src/images/600x900.jpeg" alt="Project One" class="project-image">
+      <img src="src/images/900x1100.jpeg" alt="Project One Hover" class="project-image-hover">
+      <div class="description">GAMBLR.viz: R package to visualize genomic datasets</div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="image-container">
+      <img src="src/images/600x900.jpeg" alt="Project One" class="project-image">
+      <img src="src/images/900x1100.jpeg" alt="Project One Hover" class="project-image-hover">
+      <div class="description">LCR-modules: reproducible workflows to analyze massive genomic datasets</div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="image-container">
+      <img src="src/images/600x900.jpeg" alt="Project One" class="project-image">
+      <img src="src/images/900x1100.jpeg" alt="Project One Hover" class="project-image-hover">
+      <div class="description">GAMBLR.predict: machine learning models for classification of B-cell lymphomas</div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="image-container">
+      <img src="src/images/600x900.jpeg" alt="Project One" class="project-image">
+      <img src="src/images/900x1100.jpeg" alt="Project One Hover" class="project-image-hover">
+      <div class="description">lymphgenerator: Python module to facilitate analysis of mutational signatures</div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="image-container">
+      <img src="src/images/600x900.jpeg" alt="Project One" class="project-image">
+      <img src="src/images/900x1100.jpeg" alt="Project One Hover" class="project-image-hover">
+      <div class="description">MAFKleanup: machine learning algorithm to remove noise from variant calls in tumors without consitutional DNA sample</div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="image-container">
+      <img src="src/images/600x900.jpeg" alt="Project One" class="project-image">
+      <img src="src/images/900x1100.jpeg" alt="Project One Hover" class="project-image-hover">
+      <div class="description">Genetic subdivisions of follicular lymphoma defined by distinct coding and noncoding mutation patterns</div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="image-container">
+      <img src="src/images/600x900.jpeg" alt="Project One" class="project-image">
+      <img src="src/images/900x1100.jpeg" alt="Project One Hover" class="project-image-hover">
+      <div class="description">MIRAGE: Minimal information for reporting a genomics experiment</div>
+    </div>
+  </div>
+
+  <div class="project">
+    <div class="image-container">
+      <img src="src/images/600x900.jpeg" alt="Project One" class="project-image">
+      <img src="src/images/900x1100.jpeg" alt="Project One Hover" class="project-image-hover">
+      <div class="description">Genetic subgroups inform on pathobiology in adult and pediatric Burkitt lymphoma</div>
+    </div>
+  </div>
+
+</div>
+```
+:::
+
+<script>
+function toggleDescription(descId) {
+  const descriptions = document.querySelectorAll('.description');
+  descriptions.forEach(desc => {
+    if (desc.id === descId) {
+      desc.classList.toggle('active');
+    } else {
+      desc.classList.remove('active');
+    }
+  });
+}
+</script>
