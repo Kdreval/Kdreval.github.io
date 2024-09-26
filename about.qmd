@@ -58,17 +58,19 @@ The National Center for Toxicological Research, U.S. Food and Drug Administratio
 ## Skills
 
 Software Engineering / Machine learning / Data Science/ Large Datasets
-<br>
+
 Data Management / Version Control / Databases / Reproducibility
-<br>
+
 VS Code / Quarto / GitHub / Terminal
+
+Cloud / AWS / Slurm
 
 ## Software
 
 R / Python / Perl / CSS / Linux / bash
-<br>
+
 Tensorflow / Scikit-learn / Pandas / Numpy / Polars / Snakemake
-<br>
+
 SQL / Git / Conda / Mamba
 
 ## Education
