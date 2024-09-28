@@ -71,7 +71,7 @@ R / Python / Perl / CSS / Linux / bash
 
 Tensorflow / Scikit-learn / Pandas / Numpy / Polars / Snakemake
 
-SQL / Git / Conda / Mamba
+SQL / Git / Conda / Mamba / Docker
 
 ## Education
 
