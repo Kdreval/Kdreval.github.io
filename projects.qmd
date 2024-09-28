@@ -3,6 +3,8 @@ format:
   html:
     self-contained: true
     css: styles.css
+execute:
+  echo: false
 ---
 
 # Projects{style="text-align:center;"}
@@ -13,84 +15,39 @@ This porfolio includes openly available research publications and software where
 
 :::{.column-screen}
 
-```{=html}
-<div class="project-grid">
-  <div class="project">
-    <a href="./projects/gamblr_data.html">
-        <div class="image-container">
-        <img src="src/images/900x1100.jpeg" alt="Project One" class="project-image">
-        <img src="src/images/1600x1400.jpeg" alt="Project One Hover" class="project-image-hover">
-        <div class="description">GAMBLR.data: R package with a collection of genomics data</div>
+```{python}
+import json
+
+def generate_project_divs(projects):
+    html_content = '<div class="project-grid">'
+    for project in projects:
+        html_content += f"""
+        <div class="project">
+            <a href="{project['link']}">
+                <div class="image-container">
+                    <img src="{project['image']}" alt="{project['title']}" class="project-image">
+                    <img src="{project['hover_image']}" alt="{project['title']} Hover" class="project-image-hover">
+                    <div class="description">{project['description']}</div>
+                </div>
+            </a>
         </div>
-    </a>
-  </div>
+        """
+    html_content += '</div>'
+    return html_content
 
-  <div class="project">
-    <div class="image-container">
-      <img src="src/images/600x900.jpeg" alt="Project One" class="project-image">
-      <img src="src/images/900x1100.jpeg" alt="Project One Hover" class="project-image-hover">
-      <div class="description">GAMBLR.viz: R package to visualize genomic datasets</div>
-    </div>
-  </div>
+# Load project data from JSON file
+with open('./src/projects.json') as f:
+    projects = json.load(f)
 
-  <div class="project">
-    <div class="image-container">
-      <img src="src/images/600x900.jpeg" alt="Project One" class="project-image">
-      <img src="src/images/900x1100.jpeg" alt="Project One Hover" class="project-image-hover">
-      <div class="description">LCR-modules: reproducible workflows to analyze massive genomic datasets</div>
-    </div>
-  </div>
-
-  <div class="project">
-    <div class="image-container">
-      <img src="src/images/600x900.jpeg" alt="Project One" class="project-image">
-      <img src="src/images/900x1100.jpeg" alt="Project One Hover" class="project-image-hover">
-      <div class="description">GAMBLR.predict: machine learning models for classification of B-cell lymphomas</div>
-    </div>
-  </div>
-
-  <div class="project">
-    <div class="image-container">
-      <img src="src/images/600x900.jpeg" alt="Project One" class="project-image">
-      <img src="src/images/900x1100.jpeg" alt="Project One Hover" class="project-image-hover">
-      <div class="description">lymphgenerator: Python module to facilitate analysis of mutational signatures</div>
-    </div>
-  </div>
-
-  <div class="project">
-    <div class="image-container">
-      <img src="src/images/600x900.jpeg" alt="Project One" class="project-image">
-      <img src="src/images/900x1100.jpeg" alt="Project One Hover" class="project-image-hover">
-      <div class="description">MAFKleanup: machine learning algorithm to remove noise from variant calls in tumors without consitutional DNA sample</div>
-    </div>
-  </div>
-
-  <div class="project">
-    <div class="image-container">
-      <img src="src/images/600x900.jpeg" alt="Project One" class="project-image">
-      <img src="src/images/900x1100.jpeg" alt="Project One Hover" class="project-image-hover">
-      <div class="description">Genetic subdivisions of follicular lymphoma defined by distinct coding and noncoding mutation patterns</div>
-    </div>
-  </div>
-
-  <div class="project">
-    <div class="image-container">
-      <img src="src/images/600x900.jpeg" alt="Project One" class="project-image">
-      <img src="src/images/900x1100.jpeg" alt="Project One Hover" class="project-image-hover">
-      <div class="description">MIRAGE: Minimal information for reporting a genomics experiment</div>
-    </div>
-  </div>
-
-  <div class="project">
-    <div class="image-container">
-      <img src="src/images/600x900.jpeg" alt="Project One" class="project-image">
-      <img src="src/images/900x1100.jpeg" alt="Project One Hover" class="project-image-hover">
-      <div class="description">Genetic subgroups inform on pathobiology in adult and pediatric Burkitt lymphoma</div>
-    </div>
-  </div>
-
-</div>
+# Generate the project divs
+project_divs = generate_project_divs(projects)
 ```
+
+```{python}
+from IPython.core.display import HTML
+HTML(project_divs)
+```
+
 :::
 
 <script>
