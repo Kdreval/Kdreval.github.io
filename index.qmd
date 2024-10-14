@@ -3,7 +3,7 @@ title: "Kostiantyn Dreval, Ph.D."
 from: markdown+emoji
 about:
   template: jolla
-  image-width: 28em
+  image-width: 20em
   image: src/images/kdreval.jpg
   links:
     - icon: github
