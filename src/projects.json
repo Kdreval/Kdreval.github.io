@@ -2,15 +2,15 @@
     {
         "title": "GAMBLR.data",
         "link": "./projects/gamblr_data.html",
-        "image": "src/images/900x1100.jpeg",
-        "hover_image": "src/images/1600x1400.jpeg",
+        "image": "src/images/gamblr_logo.png",
+        "hover_image": "src/images/gamblr_logo.png",
         "description": "GAMBLR.data: R package with a collection of genomics data"
     },
     {
         "title": "LCR-modules",
-        "link": "./projects/gamblr_data.html",
-        "image": "src/images/600x900.jpeg",
-        "hover_image": "src/images/900x1100.jpeg",
+        "link": "./projects/lcr_modules.html",
+        "image": "src/images/dag_mrna.png",
+        "hover_image": "src/images/dag_genome.png",
         "description": "LCR-modules: reproducible workflows to analyze massive genomic datasets"
     },
     {
@@ -37,8 +37,8 @@
     {
         "title": "Follicular lymphoma classifier",
         "link": "./projects/gamblr_data.html",
-        "image": "src/images/600x900.jpeg",
-        "hover_image": "src/images/900x1100.jpeg",
+        "image": "src/images/cFL_visual_abstract.png",
+        "hover_image": "src/images/cFL_visual_abstract.png",
         "description": "Genetic subdivisions of follicular lymphoma defined by distinct coding and noncoding mutation patterns"
     },
     {
@@ -51,15 +51,15 @@
     {
         "title": "Burkitt lymphoma classifier",
         "link": "./projects/gamblr_data.html",
-        "image": "src/images/600x900.jpeg",
-        "hover_image": "src/images/900x1100.jpeg",
+        "image": "src/images/bl_abstract.png",
+        "hover_image": "src/images/bl_abstract.png",
         "description": "Genetic subgroups inform on pathobiology in adult and pediatric Burkitt lymphoma"
     },
     {
         "title": "GAMBLR.viz",
         "link": "./projects/gamblr_data.html",
-        "image": "src/images/900x1100.jpeg",
-        "hover_image": "src/images/600x900.jpeg",
+        "image": "src/images/gamblr_logo.png",
+        "hover_image": "src/images/gamblr_logo.png",
         "description": "GAMBLR.viz: R package to visualize genomic datasets"
     }
 ]

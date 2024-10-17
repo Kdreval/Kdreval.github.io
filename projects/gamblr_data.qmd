@@ -27,3 +27,4 @@ in **R**, and is part of the family of R packages for lymphoma cancer research
 developed in the [Morin Lab](https://morinlab.github.io/) at the Simon Fraser
 University.
 
+![](../src/images/gamblrdata.png){fig-align="center"}
