@@ -20,8 +20,6 @@ website:
         href: index.qmd
       - text: "Projects"
         href: projects.qmd
-      - text: "Video"
-        href: video.qmd
       - text: "CV"
         href: https://github.com/Kdreval/cv/blob/master/cv.pdf
   page-footer:
