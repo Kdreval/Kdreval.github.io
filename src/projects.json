@@ -36,7 +36,7 @@
     },
     {
         "title": "Follicular lymphoma classifier",
-        "link": "./projects/gamblr_data.html",
+        "link": "./projects/cfl.html",
         "image": "src/images/cFL_visual_abstract.png",
         "hover_image": "src/images/cFL_visual_abstract.png",
         "description": "Genetic subdivisions of follicular lymphoma defined by distinct coding and noncoding mutation patterns"

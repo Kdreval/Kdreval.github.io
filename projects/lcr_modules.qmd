@@ -3,6 +3,7 @@ format:
   html:
     self-contained: true
     css: ../styles.css
+lightbox: auto
 ---
 
 # LCR-modules: reproducible workflows to analyze massive genomic datasets
@@ -12,4 +13,9 @@ format:
 <br><br>
 The exponential growth in genomic data from advanced sequencing technologies requires avialability of efficient, scalable, and reproducible bioinformatics pipelines. As part of [Lymphoid Cancer Research Department](https://www.bccrc.ca/dept/lcr/) team at the [BC Cancer](https://www.bccrc.ca/), I contributed to the development of the Lymphoid Cancer Research modules (LCR-modules), a suite of open-source bioinformatics tools designed to leverage diverse genomic data types, including whole genome, exome, and long-read sequencing. Built on the Snakemake workflow management system, LCR-modules offers a versatile toolkit for processing and analyzing large genomic datasets. The suite comprises 49 workflows organized into three levels, facilitating tasks from low-level quality control to complex cohort-level analyses. LCR-modules supports various sequencing types and integrates features like mutation calling, gene expression analysis, and data aggregation, ensuring flexibility and reproducibility. Available at https://github.com/LCR-BCCRC/lcr-modules, LCR-modules represents a significant advancement in genomic data analysis, addressing key challenges in reproducibility and scalability.
 
-![](../src/images/lcr_modules_1A.png){fig-align="center"}
+![](../src/images/lcr_modules_1A.png){
+    fig-align="center"
+    .lightbox
+    style="column-span: none; border-radius: 20px;"
+    group="my-gallery"
+}

@@ -1,0 +1,30 @@
+---
+format:
+  html:
+    self-contained: true
+    css: ../styles.css
+lightbox: auto
+---
+
+# Follicular lymphoma classifier
+
+
+<br><br>
+
+[Published](https://doi.org/10.1182/blood.2022018719) in the leading journal of hematology research, Blood, this study leveraged > 130k variants from 423 patients to discover genetic subgroups within follicular lymphoma (FL) with clinically relevant distinct features. Using machine learning techiques, we have further developed classifier to assign new cases into one of the discovered genetic subgroups, and validated it using 2 independent validation cohorts collectively comprising ~ 750 patients.
+
+Follicular lymphoma (FL) accounts for ∼20% of all new lymphoma cases. Increases in cytological grade are a feature of the clinical progression of this malignancy, and eventual histologic transformation (HT) to the aggressive diffuse large B-cell lymphoma (DLBCL) occurs in up to 15% of patients. Clinical or genetic features to predict the risk and timing of HT have not been described comprehensively.
+
+In this study, we analyzed whole-genome sequencing data from 423 patients to compare the protein coding and noncoding mutation landscapes of untransformed FL, transformed FL, and de novo DLBCL. This revealed 2 genetically distinct subgroups of FL, which we have named DLBCL-like (dFL) and constrained FL (cFL). Each subgroup has distinguishing mutational patterns, aberrant somatic hypermutation rates, and biological and clinical characteristics. We implemented a machine learning-derived classification approach to stratify patients with FL into cFL and dFL subgroups based on their genomic features. Using separate validation cohorts, we demonstrate that cFL status, whether assigned with this full classifier or a single-gene approximation, is associated with a reduced rate of HT. This implies distinct biological features of cFL that constrain its evolution, and we highlight the potential for this classification to predict HT from genetic features present at diagnosis.
+
+How to cite:
+```
+Dreval K, Hilton LK, Cruz M, Shaalan H, Ben-Neriah S, Boyle M, Collinge B, Coyle KM, Duns G, Farinha P, Grande BM. Genetic subdivisions of follicular lymphoma defined by distinct coding and noncoding mutation patterns. Blood. 2023 Aug 10;142(6):561-73.
+```
+
+![](../src/images/cFL_visual_abstract.png){
+    fig-align="center"
+    .lightbox
+    style="column-span: none; border-radius: 20px;"
+    group="my-gallery"
+}
