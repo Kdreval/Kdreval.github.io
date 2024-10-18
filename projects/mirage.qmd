@@ -1,0 +1,28 @@
+---
+format:
+  html:
+    self-contained: true
+    css: ../styles.css
+lightbox: auto
+---
+
+# MIRAGE: Minimal information for reporting a genomics experiment
+
+
+<br><br>
+
+[Spotlight](https://doi.org/10.1182/blood.2022016095) in the leading journal of hematology research, Blood, this research leveraged > 2300 patients from 11 independet whole-genome and whole-exome studies to identify common a need for a unified approach in sample quality assessment and developed SOP for the community on implementing this approach in a simple and reproducible way.
+
+Exome and genome sequencing has facilitated the identification of hundreds of genes and other regions that are recurrently mutated in hematologic neoplasms. The data sets from these studies theoretically provide opportunities. Quality differences between data sets can confound secondary analyses. We explore the consequences of these on the conclusions from some recent studies of B-cell lymphomas. We highlight the need for a minimum reporting standard to increase transparency in genomic research.
+
+How to cite:
+```
+Dreval K, Boutros PC, Morin RD. Minimal information for reporting a genomics experiment. Blood, The Journal of the American Society of Hematology. 2022 Dec 15;140(24):2549-55.
+```
+
+![](../src/images/mirage_abstract.jpeg){
+    fig-align="center"
+    .lightbox
+    style="column-span: none; border-radius: 20px;"
+    group="my-gallery"
+}

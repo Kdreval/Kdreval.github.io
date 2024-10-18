@@ -1,0 +1,32 @@
+---
+format:
+  html:
+    self-contained: true
+    css: ../styles.css
+lightbox: auto
+---
+
+# Burkitt lymphoma classifier
+
+
+<br><br>
+
+[Published](https://doi.org/10.1182/blood.2022016534) in the leading journal of hematology research, Blood, this study analyzed > 500k variants from 230 Burkitt lymphoma (BL) and 295 diffuse large B-cell lymphoma (DLBCL) tumors to discover distinct genetic subgroups within BL. Separately, > 100k variants from additional set of 470 patients were analyzed as independent testing set to validate the deveoped classifier.
+
+Burkitt lymphoma (BL) accounts for most pediatric non-Hodgkin lymphomas, being less common but significantly more lethal when diagnosed in adults. Much of the knowledge of the genetics of BL thus far has originated from the study of pediatric BL (pBL), leaving its relationship to adult BL (aBL) and other adult lymphomas not fully explored. We sought to more thoroughly identify the somatic changes that underlie lymphomagenesis in aBL and any molecular features that associate with clinical disparities within and between pBL and aBL.
+
+Through comprehensive whole-genome sequencing of 230 BL and 295 diffuse large B-cell lymphoma (DLBCL) tumors, we identified additional significantly mutated genes, including more genetic features that associate with tumor Epstein-Barr virus status, and unraveled new distinct subgroupings within BL and DLBCL with 3 predominantly comprising BLs: DGG-BL (*DDX3X*, *GNA13*, and *GNAI2*), IC-BL (*ID3* and *CCND3*), and Q53-BL (quiet *TP53*). Each BL subgroup is characterized by combinations of common driver and noncoding mutations caused by aberrant somatic hypermutation. The largest subgroups of BL cases, IC-BL and DGG-BL, are further characterized by distinct biological and gene expression differences. IC-BL and DGG-BL and their prototypical genetic features (*ID3* and *TP53*) had significant associations with patient outcomes that were different among aBL and pBL cohorts.
+
+These findings highlight shared pathogenesis between aBL and pBL, and establish genetic subtypes within BL that serve to delineate tumors with distinct molecular features, providing a new framework for epidemiologic, diagnostic, and therapeutic strategies.
+
+How to cite:
+```
+Thomas N, Dreval K, Gerhard DS, Hilton LK, Abramson JS, Ambinder RF, Barta S, Bartlett NL, Bethony J, Bhatia K, Bowen J. Genetic subgroups inform on pathobiology in adult and pediatric Burkitt lymphoma. Blood. 2023 Feb 23;141(8):904-16.
+```
+
+![](../src/images/bl_abstract.png){
+    fig-align="center"
+    .lightbox
+    style="column-span: none; border-radius: 20px;"
+    group="my-gallery"
+}

@@ -15,9 +15,9 @@
     },
     {
         "title": "GAMBLR.predict",
-        "link": "./projects/gamblr_data.html",
-        "image": "src/images/900x1100.jpeg",
-        "hover_image": "src/images/600x900.jpeg",
+        "link": "./projects/gamblr_predict.html",
+        "image": "src/images/gamblr_logo.png",
+        "hover_image": "src/images/gamblr_logo.png",
         "description": "GAMBLR.predict: machine learning models for classification of B-cell lymphomas"
     },
     {
@@ -43,21 +43,21 @@
     },
     {
         "title": "MIRAGE",
-        "link": "./projects/gamblr_data.html",
-        "image": "src/images/900x1100.jpeg",
-        "hover_image": "src/images/600x900.jpeg",
+        "link": "./projects/mirage.html",
+        "image": "src/images/mirage.jpeg",
+        "hover_image": "src/images/mirage_b.png",
         "description": "MIRAGE: Minimal information for reporting a genomics experiment"
     },
     {
         "title": "Burkitt lymphoma classifier",
-        "link": "./projects/gamblr_data.html",
+        "link": "./projects/bl.html",
         "image": "src/images/bl_abstract.png",
         "hover_image": "src/images/bl_abstract.png",
         "description": "Genetic subgroups inform on pathobiology in adult and pediatric Burkitt lymphoma"
     },
     {
         "title": "GAMBLR.viz",
-        "link": "./projects/gamblr_data.html",
+        "link": "./projects/gamblr_viz.html",
         "image": "src/images/gamblr_logo.png",
         "hover_image": "src/images/gamblr_logo.png",
         "description": "GAMBLR.viz: R package to visualize genomic datasets"

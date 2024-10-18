@@ -1,0 +1,19 @@
+---
+format:
+  html:
+    self-contained: true
+    css: ../styles.css
+---
+
+# Machine learning models for classification of B-cell lymphomas
+
+<br><br>
+
+[GAMBLR.predict](https://github.com/morinlab/GAMBLR.predict) is an open-source portable R library.
+<br><br>
+This package includes a collection of models designed to classify lymphoma patients with Burkitt Lymphoma (BL), Follicular Lymphoma (FL), and Diffuse Large B-cell Lymphoma (DLBCL) into genetic subgroups based on various classification systems utilizing genomic features. In addition to serving as a comprehensive resource for easy access to these models, GAMBLR.predict also offers functions and an API to facilitate the preparation and formatting of incoming data in accordance with each model's specifications.
+<br><br>
+GAMBLR stands for **G**enomic **A**nalysis of **M**ature **B**-cell **L**ymphomas
+in **R**, and is part of the family of R packages for lymphoma cancer research
+developed in the [Morin Lab](https://morinlab.github.io/) at the Simon Fraser
+University.
