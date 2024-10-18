@@ -26,7 +26,7 @@ website:
     background: "#588157"
     left: |
       Copyright 2024,
-      ![](src/images/KD_white.png){fig-alt="Kostiantyn Dreval" width=25px}
+      ![](/src/images/KD_white.png){fig-alt="Kostiantyn Dreval" width=25px}
       Kostiantyn Dreval
 
     right:
