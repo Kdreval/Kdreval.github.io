@@ -26,3 +26,5 @@ Dreval K, Boutros PC, Morin RD. Minimal information for reporting a genomics exp
     style="column-span: none; border-radius: 20px;"
     group="my-gallery"
 }
+
+{{< include _carousel.qmd >}}

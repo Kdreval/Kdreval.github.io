@@ -17,3 +17,5 @@ GAMBLR stands for **G**enomic **A**nalysis of **M**ature **B**-cell **L**ymphoma
 in **R**, and is part of the family of R packages for lymphoma cancer research
 developed in the [Morin Lab](https://morinlab.github.io/) at the Simon Fraser
 University.
+
+{{< include _carousel.qmd >}}

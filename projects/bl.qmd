@@ -30,3 +30,5 @@ Thomas N, Dreval K, Gerhard DS, Hilton LK, Abramson JS, Ambinder RF, Barta S, Ba
     style="column-span: none; border-radius: 20px;"
     group="my-gallery"
 }
+
+{{< include _carousel.qmd >}}

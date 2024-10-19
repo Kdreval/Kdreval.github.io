@@ -1,0 +1,47 @@
+
+<br><br>
+<h4>Check out more projects:</h4>
+
+<br><br>
+<link rel="stylesheet" type="text/css" href="https://unpkg.com/flickity@2.2.2/dist/flickity.min.css">
+<script src="https://unpkg.com/flickity@2.2.2/dist/flickity.pkgd.min.js"></script>
+
+:::{.column-screen}
+
+<div class="carousel">
+  <a href="/projects/mirage.html" class="carousel-cell">
+      <img src="/src/images/mirage_abstract.jpeg" alt="MIRAGE">
+  </a>
+  <a href="/projects/gamblr_viz.html" class="carousel-cell">
+      <img src="/src/images/gamblr_logo.png" alt="GAMBLR.viz">
+  </a>
+  <a href="/projects/cfl.html" class="carousel-cell">
+      <img src="/src/images/cFL_visual_abstract.png" alt="cFL">
+  </a>
+  <a href="/projects/gamblr_predict.html" class="carousel-cell">
+      <img src="/src/images/gamblr_logo.png" alt="GAMBLR.predict">
+  </a>
+  <a href="/projects/bl.html" class="carousel-cell">
+      <img src="/src/images/bl_abstract.png" alt="BL">
+  </a>
+  <a href="/projects/lcr_modules.html" class="carousel-cell">
+      <img src="/src/images/lcr_modules_1A.png" alt="LCR-modules">
+  </a>
+  <a href="/projects/gamblr_data.html" class="carousel-cell">
+      <img src="/src/images/gamblr_logo.png" alt="GAMBLR.data">
+  </a>
+  </div>
+
+:::
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var flkty = new Flickity('.carousel', {
+      // options
+      cellAlign: 'left',
+      contain: true,
+      autoPlay: true,
+      wrapAround: true
+    });
+  });
+</script>

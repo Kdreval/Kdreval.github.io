@@ -19,3 +19,5 @@ The exponential growth in genomic data from advanced sequencing technologies req
     style="column-span: none; border-radius: 20px;"
     group="my-gallery"
 }
+
+{{< include _carousel.qmd >}}

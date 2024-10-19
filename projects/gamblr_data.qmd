@@ -28,3 +28,5 @@ developed in the [Morin Lab](https://morinlab.github.io/) at the Simon Fraser
 University.
 
 ![](../src/images/gamblrdata.png){fig-align="center"}
+
+{{< include _carousel.qmd >}}
