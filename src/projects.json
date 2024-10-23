@@ -22,17 +22,17 @@
     },
     {
         "title": "lymphgenerator",
-        "link": "/projects/gamblr_data.html",
-        "image": "/src/images/600x900.jpeg",
-        "hover_image": "src/images/900x1100.jpeg",
+        "link": "/projects/lymphgenerator.html",
+        "image": "/src/images/lymphgenerator.png",
+        "hover_image": "src/images/lymphgenerator.png",
         "description": "lymphgenerator: Python module to facilitate analysis of mutational signatures"
     },
     {
         "title": "MAFKleanup",
-        "link": "/projects/gamblr_data.html",
-        "image": "/src/images/900x1100.jpeg",
-        "hover_image": "src/images/600x900.jpeg",
-        "description": "MAFKleanup: machine learning algorithm to remove noise from variant calls in tumors without consitutional DNA sample"
+        "link": "/projects/mafkleanup.html",
+        "image": "/src/images/mafkleanup.png",
+        "hover_image": "src/images/mafkleanup.png",
+        "description": "MAFKleanup: machine learning algorithm to remove noise from variant calls"
     },
     {
         "title": "Follicular lymphoma classifier",

@@ -1,0 +1,30 @@
+---
+format:
+  html:
+    self-contained: true
+    css: ../styles.css
+lightbox: auto
+---
+
+# MAFKleanup: machine learning algorithm to remove noise from variant calls
+
+<br><br>
+
+This project is focused on developing machine learning model that laverages > 38 M variants to develop algorithm to clean uninformative variants from the outputs of variant calling tools.
+
+This project is under development and more information will come with the publication of the manuscript.
+
+<br><br>
+
+
+
+
+![](../src/images/mafkleanup.png){
+    fig-align="center"
+    .lightbox
+    style="column-span: none; border-radius: 20px;"
+    group="my-gallery"
+}
+
+
+{{< include _carousel.qmd >}}

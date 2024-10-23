@@ -1,0 +1,36 @@
+---
+format:
+  html:
+    self-contained: true
+    css: ../styles.css
+lightbox: auto
+---
+
+# lymphgenerator: Python module to facilitate analysis of mutational signatures
+
+<br><br>
+
+The conventional way of estimating single-base substitution signatures (SBS) is characterized by some noticeable limitations:
+
+- the R package is just a wrapper for python
+- only takes file from disk as input, not the pre-imported data (which in turn increases run times and severely limits usability)
+- can't work on multi-sample merges, needs individual file for each sample (not practical in runs involving 1000s of samples)
+- only outputs absolute values, needs post-processing for relative exposure
+
+To solve these challenges, and to add functionality of statistical analyses and data visualization, the lymphgenerator module was developed. It is based on operating the data using polars, which greatly increases run times on large datasets. The simple convenience wrapper functions will optionally take the pre-loaded input data, generate individual files,
+run sigprofiler, calculate relative exposure and perform cleanup. Optionally, the panel-based subsetting will also be performed on-the-fly increasing user experience, practicality, and real-world workflows. lymphgenerator module can also perform stat comparisons and visualizations.
+
+This project is under development and more information will come with the publication of the manuscript.
+
+<br><br>
+
+
+![](../src/images/lymphgenerator.png){
+    fig-align="center"
+    .lightbox
+    style="column-span: none; border-radius: 20px;"
+    group="my-gallery"
+}
+
+
+{{< include _carousel.qmd >}}
