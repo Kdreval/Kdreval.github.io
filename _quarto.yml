@@ -48,3 +48,5 @@ format:
     toc: false
     grid:
       margin-width: 100px
+execute:
+  echo: false

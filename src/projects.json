@@ -1,64 +1,64 @@
 [
     {
         "title": "GAMBLR.data",
-        "link": "./projects/gamblr_data.html",
-        "image": "src/images/gamblr_logo.png",
+        "link": "/projects/gamblr_data.html",
+        "image": "/src/images/gamblr_logo.png",
         "hover_image": "src/images/gamblr_logo.png",
         "description": "GAMBLR.data: R package with a collection of genomics data"
     },
     {
         "title": "LCR-modules",
-        "link": "./projects/lcr_modules.html",
-        "image": "src/images/dag_mrna.png",
+        "link": "/projects/lcr_modules.html",
+        "image": "/src/images/dag_mrna.png",
         "hover_image": "src/images/dag_genome.png",
         "description": "LCR-modules: reproducible workflows to analyze massive genomic datasets"
     },
     {
         "title": "GAMBLR.predict",
-        "link": "./projects/gamblr_predict.html",
-        "image": "src/images/gamblr_logo.png",
+        "link": "/projects/gamblr_predict.html",
+        "image": "/src/images/gamblr_logo.png",
         "hover_image": "src/images/gamblr_logo.png",
         "description": "GAMBLR.predict: machine learning models for classification of B-cell lymphomas"
     },
     {
         "title": "lymphgenerator",
-        "link": "./projects/gamblr_data.html",
-        "image": "src/images/600x900.jpeg",
+        "link": "/projects/gamblr_data.html",
+        "image": "/src/images/600x900.jpeg",
         "hover_image": "src/images/900x1100.jpeg",
         "description": "lymphgenerator: Python module to facilitate analysis of mutational signatures"
     },
     {
         "title": "MAFKleanup",
-        "link": "./projects/gamblr_data.html",
-        "image": "src/images/900x1100.jpeg",
+        "link": "/projects/gamblr_data.html",
+        "image": "/src/images/900x1100.jpeg",
         "hover_image": "src/images/600x900.jpeg",
         "description": "MAFKleanup: machine learning algorithm to remove noise from variant calls in tumors without consitutional DNA sample"
     },
     {
         "title": "Follicular lymphoma classifier",
-        "link": "./projects/cfl.html",
-        "image": "src/images/cFL_visual_abstract.png",
+        "link": "/projects/cfl.html",
+        "image": "/src/images/cFL_visual_abstract.png",
         "hover_image": "src/images/cFL_visual_abstract.png",
         "description": "Genetic subdivisions of follicular lymphoma defined by distinct coding and noncoding mutation patterns"
     },
     {
         "title": "MIRAGE",
-        "link": "./projects/mirage.html",
-        "image": "src/images/mirage.jpeg",
+        "link": "/projects/mirage.html",
+        "image": "/src/images/mirage.jpeg",
         "hover_image": "src/images/mirage_b.png",
         "description": "MIRAGE: Minimal information for reporting a genomics experiment"
     },
     {
         "title": "Burkitt lymphoma classifier",
-        "link": "./projects/bl.html",
-        "image": "src/images/bl_abstract.png",
+        "link": "/projects/bl.html",
+        "image": "/src/images/bl_abstract.png",
         "hover_image": "src/images/bl_abstract.png",
         "description": "Genetic subgroups inform on pathobiology in adult and pediatric Burkitt lymphoma"
     },
     {
         "title": "GAMBLR.viz",
-        "link": "./projects/gamblr_viz.html",
-        "image": "src/images/gamblr_logo.png",
+        "link": "/projects/gamblr_viz.html",
+        "image": "/src/images/gamblr_logo.png",
         "hover_image": "src/images/gamblr_logo.png",
         "description": "GAMBLR.viz: R package to visualize genomic datasets"
     }

@@ -1,4 +1,3 @@
-
 <br><br>
 <h4>Check out more projects:</h4>
 
@@ -6,31 +5,36 @@
 <link rel="stylesheet" type="text/css" href="https://unpkg.com/flickity@2.2.2/dist/flickity.min.css">
 <script src="https://unpkg.com/flickity@2.2.2/dist/flickity.pkgd.min.js"></script>
 
+
+```{python}
+import json
+
+def generate_carousel(projects):
+    carousel_html = '<div class="carousel">\n'
+
+    for project in projects:
+        carousel_html += f"""  <a href="{project['link']}" class="carousel-cell">\n"""
+        carousel_html += f"""      <img src="{project['image']}" alt="{project['title']}">\n"""
+        carousel_html += '  </a>\n'
+
+    carousel_html += '  </div>'
+    return carousel_html
+
+# Load project data from JSON file
+with open('../src/projects.json') as f:
+    projects = json.load(f)
+
+# Generate the carousel
+carousel = generate_carousel(projects)
+```
+
+
 :::{.column-screen}
 
-<div class="carousel">
-  <a href="/projects/mirage.html" class="carousel-cell">
-      <img src="/src/images/mirage_abstract.jpeg" alt="MIRAGE">
-  </a>
-  <a href="/projects/gamblr_viz.html" class="carousel-cell">
-      <img src="/src/images/gamblr_logo.png" alt="GAMBLR.viz">
-  </a>
-  <a href="/projects/cfl.html" class="carousel-cell">
-      <img src="/src/images/cFL_visual_abstract.png" alt="cFL">
-  </a>
-  <a href="/projects/gamblr_predict.html" class="carousel-cell">
-      <img src="/src/images/gamblr_logo.png" alt="GAMBLR.predict">
-  </a>
-  <a href="/projects/bl.html" class="carousel-cell">
-      <img src="/src/images/bl_abstract.png" alt="BL">
-  </a>
-  <a href="/projects/lcr_modules.html" class="carousel-cell">
-      <img src="/src/images/lcr_modules_1A.png" alt="LCR-modules">
-  </a>
-  <a href="/projects/gamblr_data.html" class="carousel-cell">
-      <img src="/src/images/gamblr_logo.png" alt="GAMBLR.data">
-  </a>
-  </div>
+```{python}
+#| output: asis
+print(carousel)
+```
 
 :::
 
